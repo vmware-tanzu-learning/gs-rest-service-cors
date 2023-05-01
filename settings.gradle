@@ -1,1 +1,4 @@
 rootProject.name = 'rest-service-cors'
+
+include 'initial'
+include 'complete'
