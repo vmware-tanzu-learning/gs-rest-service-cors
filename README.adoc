@@ -10,7 +10,7 @@
 :gs-consuming-rest-jquery: https://spring.io/guides/gs/rest-service/gs/consuming-rest-jquery/
 :gs-spring-boot: https://spring.io/guides/gs/rest-service/gs/spring-boot/
 :images: https://github.com/spring-guides/gs-rest-service-cors/raw/main/images
-:toc:
+// :toc:
 :icons: font
 :source-highlighter: prettify
 :project_id: gs-rest-service-cors
@@ -57,29 +57,7 @@ This service differs slightly from the one described in
 {gs-rest-service}[Building a RESTful Web Service], in that it uses Spring Framework CORS
 support to add the relevant CORS response headers.
 
-== What You Need
-
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/main/prereq_editor_jdk_buildtools.adoc[]
-
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/main/how_to_complete_this_guide.adoc[]
-
 [[scratch]]
-== Starting with Spring Initializr
-
-You can use this https://start.spring.io/#!type=maven-project&groupId=com.example&artifactId=rest-service-cors&name=rest-service-cors&description=Demo%20project%20for%20Spring%20Boot&packageName=com.example.rest-service-cors&dependencies=web[pre-initialized project] and click Generate to download a ZIP file. This project is configured to fit the examples in this tutorial.
-
-To manually initialize the project:
-
-. Navigate to https://start.spring.io.
-This service pulls in all the dependencies you need for an application and does most of the setup for you.
-. Choose either Gradle or Maven and the language you want to use. This guide assumes that you chose Java.
-. Click *Dependencies* and select *Spring Web*.
-. Click *Generate*.
-. Download the resulting ZIP file, which is an archive of a web application that is configured with your choices.
-
-NOTE: If your IDE has the Spring Initializr integration, you can complete this process from your IDE.
-
-NOTE: You can also fork the project from Github and open it in your IDE or other editor.
 
 === Adding the `httpclient` Dependency
 
